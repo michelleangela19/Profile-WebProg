@@ -21,7 +21,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#Home">HAME</a>
+                    <a class="nav-link" href="#Home">HOME</a>
                     <a class="nav-link" href="#About">ABOUT ME</a>
                     <a class="nav-link" href="#Contact">CONTACT</a>
                 </div>
