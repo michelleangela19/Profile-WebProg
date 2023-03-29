@@ -1,0 +1,22 @@
+:root{
+    --naples-yellow: #FFD76Eff;
+    --indian-red: #F3565Fff;
+    --fandango: #A1207Fff;
+    --green-blue: #2363B3ff;
+    --moonstone: #00A5C0ff;
+    --emerald: #6BBB7Dff;
+}
+
+.navbar{
+    background-color: var(--emerald);
+}
+
+.navbar-nav{
+    /* background-color: red; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: white;
+}
