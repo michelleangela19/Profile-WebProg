@@ -5,18 +5,50 @@
     --green-blue: #2363B3ff;
     --moonstone: #00A5C0ff;
     --emerald: #6BBB7Dff;
+
+    --ash-gray: #A3A39Bff;
+    --charcoal: #353B4Fff;
+    --powder-blue: #95A7C4ff;
+    --powder-blue-2: #BBD0ECff;
+    --dim-gray: #72685Bff;
+
 }
 
 .navbar{
-    background-color: var(--emerald);
+    background-color: var(--dim-gray);
 }
 
 .navbar-nav{
     /* background-color: red; */
-    width: 100%;
+    width: 30%;
     justify-content: space-between;
 }
 
 .nav-link{
     color: white;
+    /* background-color: red; */
+}
+
+.isi{
+    margin-top: 100px;
+}
+
+.profileImg1{
+    width: 700px;
+    justify-content: end;
+}
+
+#Home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: red;
+}
+
+.Text1{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    background-color: var(--ash-gray);
+    height: fit-content;
 }
