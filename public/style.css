@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
 :root{
     --naples-yellow: #FFD76Eff;
     --indian-red: #F3565Fff;
@@ -29,26 +35,219 @@
     /* background-color: red; */
 }
 
-.isi{
-    margin-top: 100px;
+.container{
+    gap: 50px;
 }
 
+
 .profileImg1{
-    width: 700px;
-    justify-content: end;
+    width: 600px;
 }
 
 #Home{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: red;
+    justify-content: center;
+    /* background-color: red; */
+    padding-top: 200px;
+    gap: 200px;
+}
+
+.atas{
+    /* background-color: blue; */
+    /* padding-top: 300px; */
 }
 
 .Text1{
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
-    background-color: var(--ash-gray);
-    height: fit-content;
+    /* border: var(--ash-gray); */
+    /* width: 100%; */
+    color: rgb(48, 50, 56);
+    /* padding: 50px; */
+}
+
+.border-bottom{
+    border-color: var(--dim-gray);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    /* background-color: #2196F3; */
+    padding: 50px;
+    align-content: center;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-content{
+    align-items: center;
+}
+
+#About{
+    padding-top: 225px;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.aboutTitle{
+    margin-bottom: 100px;
+}
+
+.font{
+    font-family: 'Poppins';
+}
+
+.and{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 350px;
+}
+
+.and2{
+    text-align: center;
+}
+
+.icon{
+    width: 70px;
+}
+
+#Contact{
+    margin-top: 300px;
+    background-color: var(--dim-gray);
+    padding: 50px 0px;
+}
+
+.icon2{
+    width: 30px;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+.infoDetail{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    color: white;
+    gap: 10px;
+    /* background-color: yellow; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.infoDetail2{
+    display: flex;
+    flex-direction: row;
+    /* width: fit-content; */
+    color: white;
+    /* background-color: red; */
+    align-items: center;
+    gap: 10px;
+}
+
+.infoDetail2 p {
+    padding: 0;
+    margin: 0;
+}
+
+.infoDetail p {
+    padding: 0;
+    margin: 0;
+}
+
+.sosmed h4{
+    color: white;
+    text-align: center;
+}
+
+.sosmed{
+    margin-top: 50px;
+}
+
+.sosmedIcon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+ion-icon {
+    font-size: 45px;
+    color: white;
+}
+
+/* .typing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: var(--charcoal);
+    animation: cursorBlink 0.8s steps(3) infinite;
+}
+
+@keyframes cursorBlink {
+
+    0%,
+    75% {
+        opacity: 1;
+    }
+
+    76%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.typing {
+    position: relative;
+}
+
+.typing h2 {
+    position: relative;
+    color: var(--charcoal);
+    letter-spacing: 5px;
+    font-size: 4rem;
+    overflow: hidden;
+    margin-bottom: 0;
+    animation: type 5s steps(11) infinite;
+}
+
+@keyframes type {
+
+    0%,
+    100% {
+        width: 0px;
+    }
+
+    30%,
+    60% {
+        width: 394.09px;
+    }
+} */
+
+@media(max-width: 1000px){
+    .grid-content p{
+        font-size: 3vw;
+    }
+
+    .icon{
+        width: 7vw;
+    }
 }
