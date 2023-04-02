@@ -132,10 +132,14 @@ body{
 }
 
 .carousel{
-    margin-top: 300px;
-    /* width: 80%; */
+    width: 80%;
     /* padding-left: auto;
     padding-right: auto; */
+}
+
+.skill-container{
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-control-prev{
@@ -144,6 +148,7 @@ body{
 
 .skill-title{
     padding-bottom: 50px;
+    margin-top: 300px;
 }
 
 .aboutTitle{
