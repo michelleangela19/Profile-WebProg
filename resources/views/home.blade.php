@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <nav class="navbar navbar-expand-xxl fixed-top bg-body-tertiary">
+    <nav class="navbar navbar-expand-xxl fixed-top bg-body-tertiary">
         <div class="container-fluid container">
             <a class="navbar-brand" href="#Home">
                 <img src="media/logo.png" alt="Bootstrap" width="80" height="auto">
@@ -34,13 +34,13 @@
 
     <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" class="isi">
         <div id="Home" class="">
-            <div class="Text1 border-bottom border-5">
+            <div class="hai Text1 border-bottom border-5">
                 <h1 class="typing">Hi, I'm Michelle Angela!</h1>
                 <p class="fs-5">and this is a little bit informations about me..</p>
             </div>
             <img src="../media/image(1).jpg" alt="" class="img-fluid rounded-circle profileImg1">
         </div>
-        
+
         <div id="About">
             <h2 class="aboutTitle font">Here are some things about 'Michelle Angela'</h2>
             <div class="grid-container">
@@ -82,6 +82,92 @@
                     <p class="fs-3">Bahasa, English</p>
                 </div>
             </div>
+
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="card-body">
+                        <h3 class="card-title">Education History</h3>
+                        <div id="content">
+                            <ul class="timeline">
+                                <li class="event" data-date="2007 - 2008">
+                                    <h3>TK St. Cicilia Pademangan</h3>
+                                </li>
+                                <li class="event" data-date="2009 - 2015">
+                                    <h3>SD Budi Mulia Mangga Besar</h3>
+                                </li>
+                                <li class="event" data-date="2015 - 2018">
+                                    <h3>SMP Budi Mulia Mangga Besar</h3>
+                                </li>
+                                <li class="event" data-date="2018 - 2021">
+                                    <h3>SMA Budi Mulia Mangga Besar</h3>
+                                    <p>Science Major</p>
+                                </li>
+                                <li class="event ongoing" data-date="2021 - now">
+                                    <h3>Binus University</h3>
+                                    <p>Computer Science Binus Online Learning (PPTI BCA)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <h3 class="skill-title">My Skills</h3>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/slide 1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>HTML, CSS, JavaScript</h2>
+                            <h5>FrontEnd Development Program</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/slide 2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>MySQL, C++, Python</h2>
+                            <h5>BackEnd Development Program </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/slide 3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Canva</h2>
+                            <h5>Graphic Design Tool</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/slide 4.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Capcut</h2>
+                            <h5>Video Editing Tool</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/slide 5.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Word, Excel, Powerpoint</h2>
+                            <h5>Microsoft Programs</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
 
         
@@ -107,13 +193,13 @@
             <div class="sosmed">
                 <h4>-My Social Media-</h4>
                 <div class="sosmedIcon">
-                    <a href="https://instagram.com/michelle.angla?igshid=MTIzZWQxMDU=" target="_blank">
+                    <a href="https://instagram.com/michelle.angla?igshid=MTIzZWQxMDU=" target="_blank" class="fa">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
-                    <a href="https://twitter.com/miselelelel?t=Wpl9ybKebUpHxO8y9YshxQ&s=09" target="_blank">
+                    <a href="https://twitter.com/miselelelel?t=Wpl9ybKebUpHxO8y9YshxQ&s=09" target="_blank" class="fa">
                         <ion-icon name="logo-twitter"></ion-icon>
                     </a>
-                    <a href="https://www.tiktok.com/@kepho.ih?_t=8b6mGVARwXp&_r=1" target="_blank">
+                    <a href="https://www.tiktok.com/@kepho.ih?_t=8b6mGVARwXp&_r=1" target="_blank" class="fa">
                         <ion-icon name="logo-tiktok" ></ion-icon>
                     </a>
                 </div>
