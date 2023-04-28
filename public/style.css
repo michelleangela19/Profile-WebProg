@@ -34,16 +34,6 @@ body{
     background-size: 100%;
 }
 
-/* body::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(255, 255, 255, 0.466);
-} */
-
 .navbar{
     background-color: var(--dim-gray);
     /* z-index: 1; */
@@ -167,6 +157,7 @@ body{
 
 .and2{
     text-align: center;
+    padding-bottom: 300px;
 }
 
 .icon{
@@ -174,7 +165,6 @@ body{
 }
 
 #Contact{
-    margin-top: 300px;
     background-color: var(--dim-gray);
     padding: 50px 0px;
 }
@@ -339,57 +329,6 @@ ion-icon {
     top: 5px;
 }
 
-/* .typing::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: var(--charcoal);
-    animation: cursorBlink 0.8s steps(3) infinite;
-}
-
-@keyframes cursorBlink {
-
-    0%,
-    75% {
-        opacity: 1;
-    }
-
-    76%,
-    100% {
-        opacity: 0;
-    }
-}
-
-.typing {
-    position: relative;
-}
-
-.typing h2 {
-    position: relative;
-    color: var(--charcoal);
-    letter-spacing: 5px;
-    font-size: 4rem;
-    overflow: hidden;
-    margin-bottom: 0;
-    animation: type 5s steps(11) infinite;
-}
-
-@keyframes type {
-
-    0%,
-    100% {
-        width: 0px;
-    }
-
-    30%,
-    60% {
-        width: 394.09px;
-    }
-} */
-
 @media(max-width: 1000px){
     .grid-content p{
         font-size: 3vw;
@@ -398,4 +337,64 @@ ion-icon {
     .icon{
         width: 7vw;
     }
+}
+
+.mealTitle{
+    padding-top: 25rem;
+}
+
+.cardHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: 5px 5px #c0c0c0;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border: 1px solid #72685Bff;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardL{
+    background-color: rgb(149, 185, 233);
+}
+
+.cardVL{
+    background-color: rgb(126, 221, 228);
+}
+
+.cardSL{
+    background-color: rgb(145, 92, 230);;
+}
+
+.cardImage{
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px;
+}
+
+.meal-body{
+    /* background-color: red; */
+    text-align: left;
+    width: 95%;
+    margin: 30px 0px;
 }
