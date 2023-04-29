@@ -29,8 +29,6 @@ body{
     right: 0;
     position: absolute;
     z-index: -1;
-    /* background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-size: 100%;
 }
 
@@ -132,10 +130,6 @@ body{
     justify-content: center;
 }
 
-.carousel-control-prev{
-    /* background-color: red; */
-}
-
 .skill-title{
     padding-bottom: 50px;
     margin-top: 300px;
@@ -153,10 +147,6 @@ body{
     /* background-color: red; */
     text-align: center;
     margin-top: 350px;
-}
-
-.and2{
-    text-align: center;
     padding-bottom: 300px;
 }
 
@@ -174,9 +164,8 @@ body{
 }
 
 .contactInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: fit-content;
+    margin: auto;
     /* background-color: rebeccapurple; */
 }
 
@@ -186,24 +175,9 @@ body{
     width: fit-content;
     color: white;
     gap: 10px;
-    /* background-color: yellow; */
-    justify-content: center;
-    /* align-items: center; */
-}
-
-.infoDetail2{
-    display: flex;
-    flex-direction: row;
-    /* width: fit-content; */
-    color: white;
-    /* background-color: red; */
     align-items: center;
-    gap: 10px;
-}
-
-.infoDetail2 p {
-    padding: 0;
-    margin: 0;
+    /* background-color: yellow; */
+    margin: auto;
 }
 
 .infoDetail p {
@@ -218,6 +192,7 @@ body{
 
 .sosmed{
     margin-top: 50px;
+    /* background-color: red; */
 }
 
 .sosmedIcon{
@@ -397,4 +372,27 @@ a:hover{
     text-align: left;
     width: 95%;
     margin: 30px 0px;
+}
+
+.mealIsi{
+    /* background-color: red; */
+    background-color:  #ffffffcc;
+    padding-top: 130px;
+}
+
+.mealIsi h1{
+    /* background-color: red; */
+    text-align: center;
+}
+
+.mealDesc{
+    /* background-color: red; */
+    margin: auto;
+    width: fit-content;
+    padding-bottom: 100px;
+}
+
+.mealImg{
+    width: 500px;
+    margin: 50px 0px;
 }

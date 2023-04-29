@@ -19,9 +19,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-// Route::get('/home', function () {
-//     return view('home');
-// });
+Route::get('/test', function () {
+    return view('test');
+});
 
 
 Route::get('/', [CardController::class, 'index']);

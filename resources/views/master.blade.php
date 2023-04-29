@@ -5,8 +5,8 @@
     <meta name="viewport" content="@yield('description')">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('judul')</title>
-    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -18,6 +18,6 @@
     <div>
         @yield('content')
     </div>
-    @include('layout.footer');
+    @include('layout.footer')
 </body>
 </html>

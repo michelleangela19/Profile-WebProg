@@ -187,10 +187,10 @@
         </div>
     </div>
 
-    <h2 class="and font">And many more to know..</h2>
-    <h3 class="and2 font">If you want to know more about me, feel free to contact me!</h3>
+    <div class="and">
+        <h2 class="">And many more to know..</h2>
+        <h3 class="">If you want to know more about me, feel free to contact me!</h3>
+    </div>
 </div>
-
-
 
 @endsection
