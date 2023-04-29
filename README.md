@@ -27,10 +27,13 @@ Here's a GIF showing how my website should look and work.
 ![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Skill(5).png)
 
 ## Favourite Meals
-![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Fav meals.png)
+![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Fav%20meals.png)
+
+## Favourite Meals (2)
+![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Fav%20meals(2).png)
 
 ## Meal Details
-![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Meal Detail.png)
+![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Meal%20Detail.png)
 
 ## Contact info
 ![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Contact.png)
