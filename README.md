@@ -26,5 +26,11 @@ Here's a GIF showing how my website should look and work.
 ## My Skills (5)
 ![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Skill(5).png)
 
+## Favourite Meals
+![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Fav meals.png)
+
+## Meal Details
+![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Meal Detail.png)
+
 ## Contact info
 ![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Contact.png)
