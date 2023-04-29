@@ -1,3 +1,7 @@
+## Overall Website Preview (GIF)
+Here's a GIF showing how my website should look and work.
+![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Michelle's%20Profile.gif)
+
 ## Home
 ![Alt text](https://github.com/michelleangela19/Profile-WebProg/blob/main/public/readme/Home.png)
 
